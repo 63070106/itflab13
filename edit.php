@@ -13,7 +13,7 @@
     <?php
     $id=$_GET['ID'];
     $conn = mysqli_init();
-    mysqli_real_connect($conn, 'ttt.mysql.database.azure.com', 'ins888@ttt', '0asd5', 'itflab', 3306);
+    mysqli_real_connect($conn, 'lab-13.mysql.database.azure.com', 'Pannathorn@lab-13', 'OIOuiv83', 'itflab', 3306);
     $res = mysqli_query($conn, "SELECT * FROM guestbook WHERE ID='$id'");
     $row = mysqli_fetch_array($res)
     ?>
